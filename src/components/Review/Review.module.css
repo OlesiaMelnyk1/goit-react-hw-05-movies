@@ -1,0 +1,16 @@
+.reviewContent {
+  color: #03233b;
+  font-size: 18px;
+}
+
+.reviewList {
+  text-decoration: none;
+  color: #033e6b;
+  font-size: 26px;
+}
+
+.reviewContainer {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: rgb(167, 202, 233);
+}

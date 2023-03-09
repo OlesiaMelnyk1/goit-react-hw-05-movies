@@ -1,0 +1,35 @@
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.listImg {
+  width: 400px;
+  margin-bottom: 20px;
+  height: 85%;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.84) 0px 3px 8px;
+}
+
+.listImg:hover,
+.listImg:focus {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98);
+}
+
+.movieListTitle {
+  text-align: center;
+  font-size: 24px;
+  /* color: #033e6b; */
+  color: rgba(255, 255, 255, 0.84);
+  max-width: 400px;
+  text-shadow: rgba(255, 255, 255, 0.84) 0px 3px 8px;
+}
+
+.movieListLink {
+  text-decoration: none;
+}

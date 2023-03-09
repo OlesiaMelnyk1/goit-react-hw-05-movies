@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 2px 4px 8px 2px rgb(196, 216, 235);
+  padding: 20px;
+  background-image: linear-gradient(to right, #5d6db4, #033257);
+}
+
+nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.navLink {
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  color: rgb(167, 202, 233);
+  text-decoration: none;
+  box-shadow: 2px 4px 8px 2px rgb(167, 202, 233);
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

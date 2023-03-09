@@ -1,0 +1,68 @@
+.backButton {
+  width: 200px;
+  border-radius: 4px;
+  background-color: #033e6b;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 2px 4px 8px 2px rgb(167, 202, 233);
+}
+
+.backButton:hover,
+.backButton:focus {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.backButtonLink {
+  text-decoration: none;
+  color: rgb(167, 202, 233);
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.additionalInfo {
+  text-align: center;
+}
+
+.trending {
+  text-align: center;
+  color: #033e6b;
+  font-size: 32px;
+  text-shadow: rgba(84, 50, 171, 0.84) 0px 3px 8px;
+}
+
+.listLinkReview {
+  display: block;
+  margin-top: 10px;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.linkReview {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: rgb(167, 202, 233);
+}
+
+.linkReview:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
